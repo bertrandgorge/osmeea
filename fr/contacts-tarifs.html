@@ -91,10 +91,21 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="index.html">Accueil</a></li>
                     <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="maison_invites.html">Le Mas</a></li>
-                    <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="infos_pratiques.html">Informations pratiques</a></li>
-                    <li class="nav-item active px-lg-3"><a class="nav-link text-uppercase text-expanded" href="contacts-tarifs.html">Contact et tarifs<span class="sr-only"> (page actuelle)</span></a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase text-expanded" href="chambres.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Les chambres</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="chambres.html#aloe">Chambre Aloe</a>
+                          <a class="dropdown-item" href="chambres.html#mimosa">Suite Mimosa</a>
+                          <a class="dropdown-item" href="chambres.html#bougainvillier">Suite Bougainvillier</a>
+                          <a class="dropdown-item" href="chambres.html#jasmin">Chambre Jasmin</a>
+                        </div>
+                    </li>
                     <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="reviews.html">Avis</a></li>
+                    <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="histoire.html">Histoire</a></li>
 
+                    <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="infos_pratiques.html">Infos et contact</a></li>
+                    <li class="nav-item active px-lg-3"><a class="nav-link text-uppercase text-expanded" href="contacts-tarifs.html">Tarifs<span class="sr-only"> (page actuelle)</span></a></li>
+                    
                     <li class="nav-item px-lg-3">
                         <a class="nav-link text-uppercase text-expanded" href="../en/contacts-tarifs.html"><img src="../img/en.png" style="vertical-align: baseline;"> English</a>
                     </li>
@@ -131,6 +142,7 @@
                             <li class="list-unstyled-item list-hours-item d-flex"><span class="description">Maison des Amis complète<br><span class="sub-description">7 nuités</span></span><span class="basse-saison ml-auto">3500€</span><span class="haute-saison ml-auto">3900€</span></li>
 
                         </ul>
+
                     </div>
                     <!-- <p class="text-center"><a href="https://mas-osmeea.amenitiz.io/fr/booking/room" target="_blank"
                        class="btn btn-primary btn-lg" role="button" style="top: -106px; position: relative;">Réserver maintenant !</a></p> -->
@@ -158,6 +170,11 @@
                     </span>
                             </li>
 
+
+                            <li class="list-unstyled-item list-hours-item d-flex">
+                                Au delà de 8 visiteurs, supplément de 50 € par personne additionnelle pour le séjour
+                            </li>
+
                         </ul>
 
                         <h2 class="section-heading mb-5">
@@ -182,67 +199,6 @@
     </section>
 
 
-
-    <section class="page-section">
-        <div class="container">
-
-
-
-            <div class="about-heading-content mt-3">
-                <div class="row">
-                    <div class="col-xl-9 col-lg-10 mx-auto">
-                        <div class="bg-faded rounded p-5">
-                            <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">Mas Osmeea</span>
-                                <span class="section-heading-lower">Nous contacter</span>
-                            </h2>
-                            <p>Pour toute réservation, vous pouvez nous contacter par téléphone ou par mail :</p>
-                            <p class="mb-0">Stéphanie BOULAY, au <a href="tel:+33681931870">+33 6 81 93 18 70</a> ou par mail&nbsp;: <a href="mailto:stephanie@osmeea.com">stephanie@osmeea.com</a></p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-            <div class="row mt-5">
-                <div class="col-lg-12">
-                    <form id="contactForm" name="sentMessage" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input class="form-control" id="name" type="text" placeholder="Votre nom *" required data-validation-required-message="Veuillez saisir votre nom.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" id="email" type="email" placeholder="Votre Email *" required data-validation-required-message="Veuillez saisir votre adresse email.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" id="phone" type="tel" placeholder="Votre téléphone *" required data-validation-required-message="Veuillez saisir votre numéro de téléphone.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea style="height: 300px" class="form-control" id="message" placeholder="Votre message *" required data-validation-required-message="Veuillez saisir votre message"></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Envoyer votre message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <footer class="footer text-faded text-center py-5">
         <div class="container">
             <div class="row">
@@ -263,10 +219,6 @@
     <!-- Bootstrap core JavaScript -->
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Contact form JavaScript -->
-    <script src="../js/jqBootstrapValidation.js"></script>
-    <script src="../js/contact_me.js"></script>
 
 </body>
 

@@ -88,9 +88,19 @@
           <ul class="navbar-nav mx-auto">
             <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="index.html">Home</a></li>
             <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="maison_invites.html">The Mas</a></li>
-            <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="infos_pratiques.html">Useful Information</a></li>
-            <li class="nav-item active px-lg-3"><a class="nav-link text-uppercase text-expanded" href="contacts-tarifs.html">Contact and Rates<span class="sr-only"> (current page)</span></a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-uppercase text-expanded" href="rooms.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">The suites</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="rooms.html#aloe">Aloe Room</a>
+                <a class="dropdown-item" href="rooms.html#mimosa">Mimosa Suite</a>
+                <a class="dropdown-item" href="rooms.html#bougainvillier">Bougainvillea Suite</a>
+                <a class="dropdown-item" href="rooms.html#jasmin">Jasmine Room</a>
+              </div>
+            </li>
             <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="reviews.html">Reviews</a></li>
+            <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="history.html">History</a></li>
+            <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="infos_pratiques.html">Info and contact</a></li>
+            <li class="nav-item active px-lg-3"><a class="nav-link text-uppercase text-expanded" href="contacts-tarifs.html">Rates<span class="sr-only"> (current page)</span></a></li>
 
             <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="../fr/contacts-tarifs.html"><img src="../img/fr.png" style="vertical-align: baseline;"> Français</a></li>
           </ul>
@@ -147,7 +157,9 @@
                   <ul><li>Flexible rental by night and for each suite possible.</li>
                   <li>Possibility to rent the full house with a minimum of two nights.</li></ul></span>
                 </li>
-
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Beyond 8 visitors, an additional charge of 50 € per extra person for the stay
+                </li>
               </ul>
 
               <h2 class="section-heading mb-5">
@@ -166,65 +178,6 @@
               </ul>
 
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="page-section">
-      <div class="container">
-
-        <div class="about-heading-content mt-3">
-          <div class="row">
-            <div class="col-xl-9 col-lg-10 mx-auto">
-              <div class="bg-faded rounded p-5">
-                <h2 class="section-heading mb-4">
-                  <span class="section-heading-upper">Mas Osmeea</span>
-                  <span class="section-heading-lower">Contact us</span>
-                </h2>
-                <p>For any reservation, you can contact us by phone or email:</p>
-                <p class="mb-0">Stéphanie BOULAY, at <a href="tel:+33681931870">+33 6 81 93 18 70</a> or by email: <a href="mailto:stephanie@osmeea.com">stephanie@osmeea.com</a></p>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-
-        <div class="row mt-5">
-          <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Name*" required data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Email*" required data-validation-required-message="Please enter your email address.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Phone*" required data-validation-required-message="Please enter your phone number including international prefix.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea style="height: 300px" class="form-control" id="message" placeholder="Your message*" required data-validation-required-message="Please enter your message"></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send your message</button>
-                </div>
-              </div>
-            </form>
           </div>
         </div>
       </div>
@@ -251,10 +204,6 @@
     <!-- Bootstrap core JavaScript -->
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Contact form JavaScript -->
-    <script src="../js/jqBootstrapValidation.js"></script>
-    <script src="../js/contact_me.js"></script>
 
   </body>
 

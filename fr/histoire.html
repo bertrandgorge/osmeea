@@ -96,113 +96,38 @@
                 <a class="dropdown-item" href="chambres.html#jasmin">Chambre Jasmin</a>
               </div>
             </li>
-
-            
             <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="reviews.html">Avis</a></li>
-            <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="histoire.html">Histoire</a></li>
-            <li class="nav-item active px-lg-3"><a class="nav-link text-uppercase text-expanded" href="infos_pratiques.html">Infos et contact <span class="sr-only">(page actuelle)</span></a></li>
+            <li class="nav-item active px-lg-3"><a class="nav-link text-uppercase text-expanded" href="histoire.html">Histoire <span class="sr-only">(page actuelle)</span></a></li>
+            <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="infos_pratiques.html">Infos et contact</a></li>
             <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="contacts-tarifs.html">Tarifs</a></li>
 
-            <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="../en/infos_pratiques.html"><img src="../img/en.png" style="vertical-align: baseline;"> English</a></li>
+            <li class="nav-item px-lg-3"><a class="nav-link text-uppercase text-expanded" href="../en/history.html"><img src="../img/en.png" style="vertical-align: baseline;"> English</a></li>
 
           </ul>
         </div>
       </div>
     </nav>
-
-
-
-    <!-- Carte Google Maps -->
-    <section id="contact">
+ 
+    <section class="page-section" id="renovation">
       <div class="container">
-
-
-
-        <div class="about-heading-content mt-3 mb-5">
-          <div class="row">
-            <div class="col-12 mx-auto">
-              <div class="bg-faded rounded p-5">
+        <div class="product-item">
+          <div class="product-item-title d-flex">
+            <div class="bg-faded p-5 ml-auto rounded">
                 <h2 class="section-heading mb-4">
-                  <span class="section-heading-upper">Mas Osmeea</span>
-                  <span class="section-heading-lower">Nous trouver</span>
+                  <span class="section-heading-lower">Rénovation</span>
                 </h2>
-                <p>Notre adresse :</p>
-                <p class="mb-0"><address><a href="https://www.google.fr/maps/place/310+chemin+des+Guerchs,+06330+Roquefort-Les-Pins" target="_blank">310 chemin des Guerchs<br>06330 Roquefort-Les-Pins</a></address></p>
-
-                <div id="map-canvas" class="col-md-12 mx-auto" style="height: 500px; "></div>
-
-                <!-- <p class="text-center mt-5"><a href="https://mas-osmeea.amenitiz.io/fr/booking/room" target="_blank"
-                  class="btn btn-primary btn-lg text-white" role="button" >Réserver maintenant !</a></p> -->
-              </div>
+                <p >Nous avons rénové l'ensemble du bâtiment en quelques années - voici une petite vidéo qui retrace cette aventure !</p>
             </div>
           </div>
-        </div>
 
+        <video width="100%" src="../img/video_reno/video_reno.mp4" controls poster="../img/video_reno/video_still.jpg">
+          Votre navigateur ne permet pas de lire les vidéos.
+          Mais vous pouvez toujours <a href="../img/video_reno/video_reno.mp4">la télécharger</a> !
+        </video>
+
+        </div>
       </div>
     </section>
-
-
-
-    <section class="page-section">
-      <div class="container">
-
-
-
-          <div class="about-heading-content mt-3">
-              <div class="row">
-                  <div class="col-xl-9 col-lg-10 mx-auto">
-                      <div class="bg-faded rounded p-5">
-                          <h2 class="section-heading mb-4">
-                              <span class="section-heading-upper">Mas Osmeea</span>
-                              <span class="section-heading-lower">Nous contacter</span>
-                          </h2>
-                          <p>Pour toute réservation, vous pouvez nous contacter par téléphone ou par mail :</p>
-                          <p class="mb-0">Stéphanie BOULAY, au <a href="tel:+33681931870">+33 6 81 93 18 70</a> ou par mail&nbsp;: <a href="mailto:stephanie@osmeea.com">stephanie@osmeea.com</a></p>
-
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-
-
-
-          <div class="row mt-5">
-              <div class="col-lg-12">
-                  <form id="contactForm" name="sentMessage" novalidate>
-                      <div class="row">
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                  <input class="form-control" id="name" type="text" placeholder="Votre nom *" required data-validation-required-message="Veuillez saisir votre nom.">
-                                  <p class="help-block text-danger"></p>
-                              </div>
-                              <div class="form-group">
-                                  <input class="form-control" id="email" type="email" placeholder="Votre Email *" required data-validation-required-message="Veuillez saisir votre adresse email.">
-                                  <p class="help-block text-danger"></p>
-                              </div>
-                              <div class="form-group">
-                                  <input class="form-control" id="phone" type="tel" placeholder="Votre téléphone *" required data-validation-required-message="Veuillez saisir votre numéro de téléphone.">
-                                  <p class="help-block text-danger"></p>
-                              </div>
-                          </div>
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                  <textarea style="height: 300px" class="form-control" id="message" placeholder="Votre message *" required data-validation-required-message="Veuillez saisir votre message"></textarea>
-                                  <p class="help-block text-danger"></p>
-                              </div>
-                          </div>
-                          <div class="clearfix"></div>
-                          <div class="col-lg-12 text-center">
-                              <div id="success"></div>
-                              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Envoyer votre message</button>
-                          </div>
-                      </div>
-                  </form>
-              </div>
-          </div>
-      </div>
-  </section>
-
 
     <footer class="footer text-faded text-center py-5">
       <div class="container">
@@ -226,37 +151,6 @@
     <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADh6U3hhGabu9UjygzeEgL3eufO8hr1Kg"></script>
-
-<script>
-function initialize() {
-      var osmeea = {lat: 43.6875181, lng: 7.0329276};
-      var mapOptions = {
-          center: osmeea,
-          zoom: 15,
-          panControl: true,
-          scrollwheel: false,
-          zoomControl: true,
-          mapTypeControl: true,
-          scaleControl: true,
-          streetViewControl: true,
-          overviewMapControl: true,
-          rotateControl: true,
-      };
-      var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-      var marker = new google.maps.Marker({
-            position: osmeea,
-            map: map
-          });
-        }
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-
-
-    <!-- Contact form JavaScript -->
-    <script src="../js/jqBootstrapValidation.js"></script>
-    <script src="../js/contact_me.js"></script>
 
   </body>
 
