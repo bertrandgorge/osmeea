@@ -1,11 +1,5 @@
-/*!
- * Start Bootstrap - Business Casual v5.0.11 (https://startbootstrap.com/theme/business-casual)
- * Copyright 2013-2022 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
- */
-
 body {
-  font-family: 'Lora';
+  font-family: "Lora";
   background: url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -18,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
 p {
@@ -34,15 +28,13 @@ p {
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
-
 .site-heading .site-heading-upper {
   display: block;
   font-size: 2rem;
   font-weight: 800;
 }
-
 .site-heading .site-heading-lower {
   font-size: 5rem;
   font-weight: 100;
@@ -57,13 +49,11 @@ p {
 .section-heading {
   text-transform: uppercase;
 }
-
 .section-heading .section-heading-upper {
   display: block;
   font-size: 1rem;
   font-weight: 800;
 }
-
 .section-heading .section-heading-lower {
   display: block;
   font-size: 2.5rem;
@@ -73,29 +63,24 @@ p {
 .bg-faded {
   background-color: rgba(255, 255, 255, 0.93);
 }
-
 .bg-faded a {
   color: #80716c;
 }
 
 #mainNav {
   background-color: rgba(47, 23, 15, 0.9);
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
-
 #mainNav .navbar-brand {
   color: #80716c;
 }
-
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
 }
-
 #mainNav .navbar-nav .nav-item.active .nav-link {
   color: #998b86;
 }
-
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
@@ -113,7 +98,6 @@ p {
     display: none;
   }
 }
-
 .btn-xl {
   font-weight: 700;
   font-size: 0.8rem;
@@ -126,7 +110,6 @@ p {
 .intro {
   position: relative;
 }
-
 @media (min-width: 992px) {
   .intro .intro-img-right {
     width: 75%;
@@ -162,7 +145,6 @@ p {
     bottom: -2rem;
   }
 }
-
 @media (min-width: 1200px) {
   .intro .intro-text-left {
     width: 45%;
@@ -171,7 +153,6 @@ p {
     width: 45%;
   }
 }
-
 @media (max-width: 991px) {
   .intro .intro-img-left {
     max-width: 100%;
@@ -185,23 +166,11 @@ p {
   padding-bottom: 5rem;
   background-color: rgba(128, 113, 108, 0.9);
 }
-
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
   background-color: rgba(255, 255, 255, 0.85);
-}
-
-.cta .cta-inner:before {
-  border-radius: 0.5rem;
-  content: '';
-  position: absolute;
-  top: -0.5rem;
-  bottom: -0.5rem;
-  left: -0.5rem;
-  right: -0.5rem;
-  border: 0.25rem solid rgba(255, 255, 255, 0.85);
 }
 
 @media (min-width: 992px) {
@@ -238,44 +207,36 @@ p {
 .list-hours {
   font-size: 0.9rem;
 }
-
 .list-hours .list-hours-item {
   border-bottom: 1px solid rgba(128, 113, 108, 0.5);
-  padding-bottom: .25rem;
+  padding-bottom: 0.25rem;
   margin-bottom: 1rem;
   font-style: italic;
 }
-
 .list-hours .list-hours-item.saison {
   font-weight: bold;
   color: #80716c;
 }
-
 .list-hours .list-hours-item .dates-saison {
   font-weight: normal;
   color: black;
   font-size: 0.9rem;
 }
-
 .list-hours .list-hours-item .description {
   width: 40%;
 }
-
 .list-hours .list-hours-item .sub-description {
   font-size: 0.9rem;
   color: #807e7e;
 }
-
 .list-hours .list-hours-item .basse-saison, .list-hours .list-hours-item .moyenne-saison, .list-hours .list-hours-item .haute-saison {
   width: 20%;
   text-align: center;
 }
-
 .list-hours .list-hours-item .sub-price {
   font-size: 0.8rem;
   color: #807e7e;
 }
-
 @media (min-width: 992px) {
   .list-hours {
     font-size: 1.1rem;
@@ -289,19 +250,15 @@ p {
 .footer {
   background-color: rgba(47, 23, 15, 0.9);
 }
-
 .footer .social-links {
   margin-left: 4px;
 }
-
 .footer .social-links a {
   color: rgba(255, 255, 255, 0.3);
 }
-
 .footer .social-links a:hover {
   text-decoration: none;
 }
-
 .footer .social-links a span {
   display: inline-block;
   border-radius: 50%;
@@ -331,7 +288,6 @@ p {
   background-color: #80716c;
   border-color: #80716c;
 }
-
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background-color: #645955;
   border-color: #645955;
@@ -339,4 +295,4 @@ p {
 
 .font-weight-light {
   font-weight: 100 !important;
-}
+}/*# sourceMappingURL=business-casual.css.map */
